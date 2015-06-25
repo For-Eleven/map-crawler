@@ -45,7 +45,7 @@ public class Task {
 		}
 		return null;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Task[x="+x+",y="+y+",size="+tileSize+",minZ="+minZ+",maxZ="+maxZ+"]";

@@ -16,7 +16,7 @@ public class CollectMain {
 		ActorRef map = actorSystem.actorOf(Props.create(MapCollector.class));
 		// Task task = new Task(7, 0, 8, 6, 14);
 
-		Task task = new Task(211, 101, 4, 8, 15, TaskType.MAPABC);
+		Task task = new Task(427, 206, 3 , 9, 15, TaskType.MAPABC);
 		map.tell(task, map);
 	}
 }
